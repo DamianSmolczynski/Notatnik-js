@@ -1,0 +1,52 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+body{
+    display: flex;
+    margin: 0;
+    background:black
+}
+#save,#load{
+    font-weight: bold;
+    color: gold;
+}
+.wrapper{
+    margin: 0 auto;
+}
+.options-bar{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 70px auto 0 auto;
+}
+button{
+    width: 55.5px;
+    color: white;
+    background-color: rgb(31, 14, 46);
+}
+button:hover{
+    background-color: rgb(42, 20, 61);
+    cursor: pointer;
+}
+#clear{
+    cursor: pointer;
+    background-color: rgb(31, 14, 46);
+}
+#clear:hover{
+    cursor: default ;
+    background-color: rgb(31, 14, 46) ;
+}
+
+
+iframe {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(184, 181, 181);
+    border: none;
+    
+    
+}
+
+
